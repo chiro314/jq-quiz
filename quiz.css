@@ -1,0 +1,71 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+#container{
+    font-family: cursive;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 2em !important;
+    text-shadow: 1px 1px white;
+    color: red;
+}
+
+/*Input Thème : */
+.input {
+    color: red;
+    border-radius: 4px;
+    background-color:aquamarine   ;  /* #6495ED;   /*:#3193A6; */
+    text-shadow: 1px 1px white;
+    margin-right: 1em;
+}
+
+/* Score : */
+#div-histo{
+    margin-top: 2em;
+    height: 10em;
+    overflow: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: left;
+    /*background-color:grey;*/
+}
+/* Margin with logo in row-question : */
+#div-marge{
+    height: 10em;
+    padding-top: 4.8em;
+    margin: auto;
+}
+.img-logo{
+    width:2em;
+}
+
+/* "C'est parti" buton : */
+#bt-instancier, #bt-accueil {
+    width: 8em;
+    margin: auto;
+    margin-top: 1em;
+
+    color: white;
+    background-color: #6495ED;
+    text-shadow: 1px 1px black;
+
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    border: 3px outset #c0c0c0;
+}
+#bt-instancier:hover, #bt-accueil:hover {
+    background-color:#063227;
+    border: 3px inset #c0c0c0;
+}
+
+
+
+
+
